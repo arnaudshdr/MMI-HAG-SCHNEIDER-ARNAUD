@@ -1,0 +1,37 @@
+header {
+	width:100%;
+	background-color:#242424;
+}
+
+
+body {
+	width:100%;
+}
+
+.wrapper {
+	width:70%;
+}
+
+.header {
+	background-color:#242424;
+	height:4em;
+	width:70%;
+}
+
+.header h1 {
+	color:#57c5a0;
+	font-family: 'Open Sans', sans-serif;	
+	line-height:25px;
+}
+
+.header-logo {
+	float:left;
+}
+
+
+.header-txt {
+	float:right;
+	display:block;
+	line-height:30px;
+}
+

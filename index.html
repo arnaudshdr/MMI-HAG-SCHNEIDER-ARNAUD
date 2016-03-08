@@ -1,161 +1,104 @@
-<!doctype html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<title>FOOSESHOES</title>
-	<link rel="stylesheet" href="style.css" >
-	<!-- <link rel="stylesheet" href="reset.css" > -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-</head>
-
-<body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1">
+		<title>Fooseshoes</title>
+	</head>
+	<body>
 	<header>
-	
-	
-		<div class="header">
-			<div class="header-logo">
-				<h1>FOOSESHOES</h1>
-			<div class="header-txt">	
-				<i class="fa fa-search"></i>
-				<span>LOGIN or Register</span>
-			</div>	
-			</div>
-			
-			<nav >
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">Products</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Pages</a></li>
-					<li><a href="">Blog</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav >
-			</div>
-		
+			<div class="container">
+				<div class="header-top">
+					<div class="header-left"><h1>FOOSESHOES</h1></div>
+					<div class="header-right">
+						<span class="header-search"><i class="fa fa-search"></i></span>
+						<span class="header-register">LOGIN or REGISTER</span>
+						</div>
+				</div>
+				</div>
+				
+			<div class="header-menu">
+				<nav class="container">
+					<div class="header-left">
+						<ul>
+							<li><a href="">Home</a></li>
+							<li><a href="">Products</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Pages</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+						
+					<div class="header-right">
+						<span class="header-star">
+							<i class="fa fa-star-o"></i><a href="#" class="header-star-background">30</a>
+						</span>
+						<span class="header-cart">
+							<i class="fa fa-shopping-cart"></i><a href="#" class="header-cart-background">0</a>
+						</span>
+					</div>
+					</nav>
+				</div>
 	</header>
-
-	<div class="wrapper">
-	<div class="slider">
-		<div class="slider-img">
-			<img src="img/slide.jpg">
-		</div>
-
-		<div class="slider-txt">
-			<span class="slider-txt-price"></span>
-			<span class="slider-txt-caption"></span>
-			<span class="slider-txt-icons"></span>
-		</div>
-	</div>
-	
-	<div class="nav2">
-		<nav>
-			<ul>
-				<li><h3>Pink shoes</h3>Now at 145,99</li>
-				<li><h3>Anna Field</h3>Limited edition</li>
-				<li><h3>Prada</h3>Summer is coming</li>
-				<li><h3>Casdei</h3>All colors avaible</li>
-				<li><h3>Mellow Yellow</h3>Free delivry</li>
-			</ul>
-		</nav>
-	</div>
-	
-	<section class="centrer">
-		<article>
-			<img src="images/usine_rouge.jpg" alt="usine" />
-			<h1>ON SALE</h1>		
-		</article>
-		
-		<article>
-			<img src="images/image2.jpg" alt="usine" />
-			<h1>SPECIAL OFFERS</h1>						
-		</article>
-		
-		<article>
-			<img src="images/image3.jpg" alt="usine" />
-			<h1>MUST HAVE</h1>
-		</article>
-	</section>
-	<hr>
-	
-	<aside class="centrer">
-	<h2>New arrivals on Fooseshoes</h2>
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>
-		
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>	
-		
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>
-		
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>
-		
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>
-		
-		<article>
-			<img src="images/bonhomme.jpg"/>
-			<h3> Title heading</h3>
-		</article>
-	
-	<div class="blocks">
-		<article>
-			<h3>FREE SHIPPING</h3>
-		</article>
-		<article>
-			<h3>TESTIMONIALS</h3>
-		</article>
-		<article>
-			<h3>BLOG NEWS</h3>
-			<span class="date"></span>
-			<span class="date"></span>
-		</article>
-	</div>
-	
-	
-	<div class="bottom">
-	
-			<div class="newsletter">
-			</div>
 			
-			<div>
-			<ul>
-				<li>facebook</li>
-				<li>twitter</li>
-				<li>linkedin</li>
-				<li>?</li>
-			</ul>
-		</div>	
-	</div>
+	<div class="slider">
+		<div class="container">
+			<img class="slider-img" src="img/girl.png">	
+			<div class="slider-right">
+				<span class="slider-price">$145,99</span>
+						<span class="slider-title">Pink Shoes</span>
+						<span class="slider-title">2013 Collection</span>
+						<span class="slider-caption">
+							Nunc non fermentum nunc. Sed ut ante 
+							eget leo tempor consequat sit amet eu orci. 
+							Donec dignissim dolor eget..</span>
+						
+				<div class="slider-icon">
+					<span class="slider-button">
+						<i class="fa fa-eye"></i>
+					</span>
+					<span class="slider-button">
+						<i class="fa fa-star-o"></i>
+					</span>
+					<span class="slider-button">
+						<i class="fa fa-share-square-o"></i>
+					</span>
+					<span class="slider-button">
+						<i class="fa fa-cart-arrow-down"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+				
+		<div class="slider-sort">
+			<div class="container">
+				<div class="slider-sort-stuff active">
+					<span class="slider-sort-stuff-name">Pink Shoes</span>
+					<span class="slider-sort-stuff-caption">Now af $145,99</span>
+				</div>
+				<div class="slider-sort-stuff">
+					<span class="slider-sort-stuff-name">Anna Field</span>
+					<span class="slider-sort-stuff-caption">Limited Edition</span>
+				</div>
+				<div class="slider-sort-stuff">
+					<span class="slider-sort-stuff-name">Prada</span>
+					<span class="slider-sort-stuff-caption">Summer is coming</span>
+				</div>
+				<div class="slider-sort-stuff">
+					<span class="slider-sort-stuff-name">Casadei</span>
+					<span class="slider-sort-stuff-caption">All color avaible</span>
+				</div>
+				<div class="slider-sort-stuff">
+					<span class="slider-sort-stuff-name">Mellow Yellow</span>
+					<span class="slider-sort-stuff-caption">Free delivery</span>
+				</div>
+			</div>
+		</div>
+	</div>	
+	</body>
 	
-	<footer>
-	
-		<p>Copyright Fooseshoes 2013. <br /> Designed by EnzoLiVolti</p>
-		<nav>
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Support</a></li>
-				<li><a href="">Terms and conditions</a></li>
-				<li><a href="">Faqs</a></li>
-				<li><a href="">Contact Us</a></li>
-			</ul>
-		</nav >
-	</footer>
-	</div>
-</body>
-
 </html>

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1">
 		<title>Fooseshoes</title>
 	</head>
+	
 	<body>
-	<header>
+		<header>
 			<div class="container">
 				<div class="header-top">
 					<div class="header-left"><h1>FOOSESHOES</h1></div>
 					<div class="header-right">
 						<span class="header-search"><i class="fa fa-search"></i></span>
 						<span class="header-register">LOGIN or REGISTER</span>
-						</div>
+					</div>
 				</div>
-				</div>
+			</div>
 				
 			<div class="header-menu">
 				<nav class="container">
@@ -32,7 +33,6 @@
 							<li><a href="">Contact</a></li>
 						</ul>
 					</div>
-						
 					<div class="header-right">
 						<span class="header-star">
 							<i class="fa fa-star-o"></i><a href="#" class="header-star-background">30</a>
@@ -41,34 +41,34 @@
 							<i class="fa fa-shopping-cart"></i><a href="#" class="header-cart-background">0</a>
 						</span>
 					</div>
-					</nav>
-				</div>
-	</header>
+				</nav>
+			</div>
+		</header>
 			
 	<div class="slider">
 		<div class="container">
-			<img class="slider-img" src="img/girl.png">	
+			<img class="slider-img" src="img/slider.png">	
 			<div class="slider-right">
-				<span class="slider-price">$145,99</span>
-						<span class="slider-title">Pink Shoes</span>
-						<span class="slider-title">2013 Collection</span>
-						<span class="slider-caption">
-							Nunc non fermentum nunc. Sed ut ante 
-							eget leo tempor consequat sit amet eu orci. 
-							Donec dignissim dolor eget..</span>
+				<span class="bouton-vert slider-prix">$145,99</span>
+				<span class="slider-titre">Pink Shoes</span>
+				<span class="slider-titre">2013 Collection</span>
+				<span class="slider-caption">
+					Nunc non fermentum nunc. Sed ut ante 
+					eget leo tempor consequat sit amet eu orci. 
+					Donec dignissim dolor eget..</span>
 						
 				<div class="slider-icon">
-					<span class="slider-button">
-						<i class="fa fa-eye"></i>
+					<span class="slider-bouton">
+						<i class="fa fa-eye hvr-sink"></i>
 					</span>
-					<span class="slider-button">
-						<i class="fa fa-star-o"></i>
+					<span class="slider-bouton">
+						<i class="fa fa-star-o hvr-sink"></i>
 					</span>
-					<span class="slider-button">
-						<i class="fa fa-share-square-o"></i>
+					<span class="slider-bouton">
+						<i class="fa fa-share-square-o hvr-sink"></i>
 					</span>
-					<span class="slider-button">
-						<i class="fa fa-cart-arrow-down"></i>
+					<span class="slider-bouton">
+						<i class="fa fa-cart-arrow-down hvr-sink"></i>
 					</span>
 				</div>
 			</div>
@@ -76,29 +76,239 @@
 				
 		<div class="slider-sort">
 			<div class="container">
-				<div class="slider-sort-stuff active">
-					<span class="slider-sort-stuff-name">Pink Shoes</span>
-					<span class="slider-sort-stuff-caption">Now af $145,99</span>
+				<div class="slider-sort-item active">
+					<span class="slider-sort-item-name">Pink Shoes</span>
+					<span class="slider-sort-item-caption">Now af $145,99</span>
 				</div>
-				<div class="slider-sort-stuff">
-					<span class="slider-sort-stuff-name">Anna Field</span>
-					<span class="slider-sort-stuff-caption">Limited Edition</span>
+				<div class="slider-sort-item">
+					<span class="slider-sort-item-name">Anna Field</span>
+					<span class="slider-sort-item-caption">Limited Edition</span>
 				</div>
-				<div class="slider-sort-stuff">
-					<span class="slider-sort-stuff-name">Prada</span>
-					<span class="slider-sort-stuff-caption">Summer is coming</span>
+				<div class="slider-sort-item">
+					<span class="slider-sort-item-name">Prada</span>
+					<span class="slider-sort-item-caption">Summer is coming</span>
 				</div>
-				<div class="slider-sort-stuff">
-					<span class="slider-sort-stuff-name">Casadei</span>
-					<span class="slider-sort-stuff-caption">All color avaible</span>
+				<div class="slider-sort-item">
+					<span class="slider-sort-item-name">Casadei</span>
+					<span class="slider-sort-item-caption">All color avaible</span>
 				</div>
-				<div class="slider-sort-stuff">
-					<span class="slider-sort-stuff-name">Mellow Yellow</span>
-					<span class="slider-sort-stuff-caption">Free delivery</span>
+				<div class="slider-sort-item">
+					<span class="slider-sort-item-name">Mellow Yellow</span>
+					<span class="slider-sort-item-caption">Free delivery</span>
 				</div>
 			</div>
 		</div>
-	</div>	
-	</body>
+	</div>
+	<section class="categories">
+		<div class="container">
+			<div class="categories-item">
+				<img src="img/sale1.jpg" class="hvr-bounce-out">
+				<span class="categories-titre">
+				ON SALE
+				</span>
+			</div>
+			<div class="categories-item">
+				<img src="img/sale2.jpg" class="hvr-bounce-out">
+				<span class="categories-titre">
+				SPECIAL OFFERS
+				</span>
+			</div>
+			<div class="categories-item">
+				<img src="img/sale3.jpg" class="hvr-bounce-out">
+				<span class="categories-titre">
+				MUST HAVE
+				</span>
+			</div>
+		</div>
+	</section>
 	
+	<section class="main">
+		<div class="container">	
+			<h2 class="main-titre">New arrivals on FooseShoes</h2>
+			<div class="main-bouton-show">
+				<a href="#">Show all</a>
+			</div>
+			<div class="main-produits">
+				<div class="main-produits-item">
+					<img src="img/talon1.jpg" class="hvr-bounce-out">
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">$145,99</span>
+					<p class="main-produits-item-titre">Even&amp;Odd</p>
+				</div>
+				<div class="main-produits-item">
+					<img src="img/talon2.jpg" class="hvr-bounce-out">
+					<span class="main-bouton solde">
+						ON SALE!
+					</span>
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">
+					$145,99
+					</span>
+					<p class="main-produits-item-titre">Even&amp;Odd</p>
+				</div>
+				<div class="main-produits-item">
+					<img src="img/talon3.jpg" class="hvr-bounce-out">
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">
+					$145,99
+					</span>
+					<p class="main-produits-item-titre">Buffalo Decolletè</p>
+				</div>
+			</div>
+					
+			<h2 class="main-titre">Best sellers of the month</h2>
+			<div class="main-bouton-show">
+				<a href="#">Show all</a>
+			</div>
+					
+			<div class="main-produits">
+				<div class="main-produits-item">
+					<img src="img/talon4.jpg" class="hvr-bounce-out">
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">
+					$145,99
+					</span>
+					<div class="main-produits-item-icon slider-icon">
+						<span class="bouton slider-bouton"><i class="fa fa-eye"></i></span>
+						<span class="bouton slider-bouton"><i class="fa fa-star-o"></i></span>
+						<span class="bouton slider-bouton"><i class="fa fa-share-square-o"></i></span>
+						<span class="bouton slider-bouton"><i class="fa fa-cart-arrow-down"></i></span>
+					</div>
+				</div>
+				<div class="main-produits-item">
+					<img src="img/talon5.jpg" class="hvr-bounce-out">
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">
+					$145,99
+					</span>
+					<p class="main-produits-item-titre">Even&amp;Odd</p>
+				</div>
+				<div class="main-produits-item">
+					<img src="img/talon6.jpg" class="hvr-bounce-out">
+					<span class="main-bouton outofstock">
+						OUT OF STOCK
+					</span>
+					<hr>
+					<span class="bouton-vert main-produits-item-prix">
+					$145,99
+					</span>
+					<p class="main-produits-item-titre">Buffalo Decolletè</p>
+				</div>		
+			</div>
+			
+			<hr class="main-hr">
+				
+			<div class="widgets">
+				<div class="widgets-item">
+					<h3>FREE SHIPPING</h3>
+					<p>
+						Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, 
+					</p>	
+				</div>
+				<div class="widgets-item">
+					<h3>TESTIMONIALS</h3>
+					<p>
+						vel, vulputate vel nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec erat sem, vehicula id dictum sit [...]
+						<p class="widgets-item-marge">- John Doe -</p>
+					</p>	
+				</div>
+				<div class="widgets-item">
+					<h3>BLOG NEWS</h3>
+					<p>
+						<ul>
+							<li>
+								<div class="widgets-item-bouton">APR 01</div>
+								<div class="widgets-item-droitebouton">
+									<h4>Nice & clean. The best for you blog!</h4>
+									<p>Vivamus metus turpis, bidendum vitae euismod vel, vulpuate vel</p>
+								</div>
+							</li>
+							<li>
+								<div class="widgets-item-bouton">APR 01</div>
+								<div class="widgets-item-droitebouton">
+									<h4>What an Ecommerce theme!</h4>
+									<p>Vulputate vel nibh. Class aptent taciti sociosqu ad litora</p>
+								</div>
+							</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+			
+	<footer>
+		<div class="container">
+			<div class="footer-widgets">
+				<div class="footer-widgets-item">
+					<h4>TEXT WIDGET</h4>
+					<p>
+						Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+					</p>
+				</div>
+				<div class="footer-widgets-item">
+					<h4>TWITTER WIDGET</h4>
+					<ul>
+						<li>
+							<span class="footer-twitter">@ericafustero</span> Why thank you. Your work looks awesome by the way! <span class="footer-twitter">@treemelody</span>
+							<p>
+								19 days ago
+							</p>
+						</li>
+						<li>
+							<span class="footer-twitter">@roymarvelous</span> You can seek a refund through TF if it is not as advertised - but it is :)
+							<p>
+								21 days ago
+							</p>
+						</li>
+					</ul>
+				</div>	
+				<div class="footer-widgets-item">
+					<h4>FLICKR WIDGET</h4>
+					<img src="img/flickr1.jpg" class="hvr-float">
+					<img src="img/flickr2.jpg" class="hvr-float">
+					<img src="img/flickr3.jpg" class="hvr-float"><br/>
+					<img src="img/flickr4.jpg" class="hvr-float">
+					<img src="img/flickr5.jpg" class="hvr-float">
+					<img src="img/flickr6.jpg" class="hvr-float">
+				</div>
+			</div>
+		</div>
+		<div class="footer-social">
+			<div class="container">
+				<div class="footer-social-left">
+					<form>
+						<input class="footer-social-newsletter" type="text" value="" placeholder="Enter email for newsletter">
+						<input class="footer-social-submit" type="submit" value="" >
+					</form>
+				</div>
+				<div class="footer-social-right">
+					<i class="fa fa-facebook hvr-sink"></i>
+					<i class="fa fa-twitter hvr-sink"></i>
+					<i class="fa fa-google-plus hvr-sink"></i>
+					<i class="fa fa-linkedin hvr-sink"></i>	
+					<i class="fa fa-flickr hvr-sink"></i>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				<div class="footer-copyright-left">
+					<p>Copyright © Fooseshoes 2013.<br>
+						Designed by EnzoLiVolti. 
+					</p>
+				</div>
+				<div class="footer-copyright-right">
+					<ul>
+						<li><a href="#">Home /</a></li>
+						<li><a href="#">Support /</a></li>
+						<li><a href="#">Terms And Conditions /</a></li>
+						<li><a href="#">Faqs /</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</footer>
+	</body>	
 </html>
